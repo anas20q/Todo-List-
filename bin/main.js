@@ -55,7 +55,8 @@ window.addEventListener('load', () => {
 			}
 		});
 
-		
-        
+		task_delete_el.addEventListener('click', (e) => {
+			list_el.removeChild(task_el);
+		});
 	});
-}); 
+});
